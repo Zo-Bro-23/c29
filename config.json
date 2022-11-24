@@ -1,0 +1,167 @@
+{
+    "autocenter": {
+        "settings": [
+            {
+                "leds": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "strength": [
+                    0.0,
+                    0.0
+                ]
+            },
+            {
+                "leds": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "strength": [
+                    0.2,
+                    0.3
+                ]
+            },
+            {
+                "leds": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "strength": [
+                    0.4,
+                    0.4
+                ]
+            },
+            {
+                "leds": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "strength": [
+                    0.6,
+                    0.5
+                ]
+            },
+            {
+                "leds": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "strength": [
+                    0.8,
+                    0.6
+                ]
+            }
+        ],
+        "keybindUp": [
+            "LEFT CTRL",
+            "LEFT SHIFT",
+            "LEFT ALT",
+            "3"
+        ],
+        "keybindDown": [
+            "LEFT CTRL",
+            "LEFT SHIFT",
+            "LEFT ALT",
+            "4"
+        ],
+        "ledDelay": 1000
+    },
+    "range": {
+        "settings": [
+            {
+                "leds": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "value": 180
+            },
+            {
+                "leds": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "value": 360
+            },
+            {
+                "leds": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "value": 540
+            },
+            {
+                "leds": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "value": 720
+            },
+            {
+                "leds": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "value": 900
+            }
+        ],
+        "keybindUp": [
+            "LEFT CTRL",
+            "LEFT SHIFT",
+            "LEFT ALT",
+            "5"
+        ],
+        "keybindDown": [
+            "LEFT CTRL",
+            "LEFT SHIFT",
+            "LEFT ALT",
+            "6"
+        ],
+        "ledDelay": 1000
+    },
+    "apply": {
+        "leds": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "keybind": [
+            "LEFT CTRL",
+            "LEFT SHIFT",
+            "LEFT ALT",
+            "7"
+        ],
+        "ledDelay": 300
+    }
+}
