@@ -3,6 +3,7 @@ const GlobalKeyboardListener = require('node-global-key-listener').GlobalKeyboar
 const v = new GlobalKeyboardListener()
 const config = require('./config.json')
 const AutoLaunch = require('auto-launch')
+const { app: electronApp } = require('electron')
 let autocenterIndex = 0
 let rangeIndex = 0
 let currentAutocenter = config.autocenter.settings[0].strength
@@ -117,5 +118,5 @@ let autoLaunch = new AutoLaunch({
 })
 
 autoLaunch.isEnabled().then((isEnabled) => {
-    if (!isEnabled) autoLaunch.disable()
+    if (!isEnabled) autoLaunch.enable()
 })

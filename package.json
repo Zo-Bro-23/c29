@@ -29,6 +29,7 @@
   "author": "Zohan Subhash",
   "license": "GPL-3.0",
   "dependencies": {
+    "auto-launch": "^5.0.5",
     "logitech-g29": "^1.3.0",
     "node-global-key-listener": "^0.1.1"
   },
@@ -43,7 +44,7 @@
         "AppImage",
         "deb"
       ],
-      "icon": "icon.ico"
+      "icon": "icon.png"
     },
     "win": {
       "publisherName": "ZoBro23",
@@ -51,6 +52,7 @@
     }
   },
   "devDependencies": {
+    "electron": "^21.3.1",
     "electron-builder": "^23.6.0"
   }
 }
