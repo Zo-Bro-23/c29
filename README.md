@@ -3,13 +3,15 @@ C29 - Configure your Logitech G29!
 
 Different games require different autocenter and range settings, and C29 allows you to edit these settings on the fly, using controls on your wheel! It even has LED feedback to let you know when your settings have been applied!
 
+![C29 in action](https://media.githubusercontent.com/media/Zo-Bro-23/c29/main/C29.gif)
+
 - [C29](#c29)
   - [Installation](#installation)
   - [Getting started](#getting-started)
   - [Customization](#customization)
 
 ## Installation
-I'm working on a distributable release, but for now, you'll have to fork the repo and run ```node index.js```.
+I'm trying to port the app to electron so that I can create releases for it, but for right now, you'll have to fork the repo and run ```node index.js```. You can also combine this with something like ```qckwinsvc``` or ```cron``` to run the app on startup.
 
 ## Getting started
 Right out of the box, the default configuration works! Press ```CTRL+SHIFT+ALT+3``` and ```CTRL+SHIFT+ALT+4``` to adjust the autocenter strength of the wheel. You can use ```CMD``` on Mac, but I think only the left ```CTRL``` and ```CMD``` work. I'm using a keyboard shortcut wrapper, so learn more about shortcut configuration [here](https://www.npmjs.com/package/node-global-key-listener). Similarly, you can use the shortcuts ```CTRL+SHIFT+ALT+5``` and ```CTRL+SHIFT+ALT+6``` to adjust the range of the wheel. You can also use ```CTRL+SHIFT+ALT+7``` to reapply saved settings, which can be useful for situations when (badly designed) games change the wheel's settings from what you've configured. It's very inconvenient to have these unwieldy shortcuts, however, so you can configure buttons on your wheel to correspond to these shortcuts, as I have done. For example, ```PS+Dial``` changes the range of my wheel!
