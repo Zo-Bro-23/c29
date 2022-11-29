@@ -3,7 +3,7 @@ C29 - Configure your Logitech G29!
 
 Different games require different autocenter and range settings, and C29 allows you to edit these settings on the fly, using controls on your wheel! It even has LED feedback to let you know when your settings have been applied!
 
-![C29 in action][](https://media.githubusercontent.com/media/Zo-Bro-23/c29/main/C29.gif)
+![C29 in action](https://media.githubusercontent.com/media/Zo-Bro-23/c29/main/C29.gif)
 
 - [C29](#c29)
   - [Installation](#installation)
