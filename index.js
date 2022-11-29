@@ -2,8 +2,8 @@ const g29 = require('logitech-g29')
 const GlobalKeyboardListener = require('node-global-key-listener').GlobalKeyboardListener
 const v = new GlobalKeyboardListener()
 const config = require('./config.json')
-const AutoLaunch = require('auto-launch')
-const { app: electronApp } = require('electron')
+// const AutoLaunch = require('auto-launch')
+// const { app: electronApp } = require('electron')
 let autocenterIndex = 0
 let rangeIndex = 0
 let currentAutocenter = config.autocenter.settings[0].strength
@@ -112,11 +112,11 @@ v.addListener((e, down) => {
     }
 })
 
-let autoLaunch = new AutoLaunch({
-    name: 'C29',
-    path: electronApp.getPath('exe'),
-})
+// let autoLaunch = new AutoLaunch({
+//     name: 'C29',
+//     path: electronApp.getPath('exe'),
+// })
 
-autoLaunch.isEnabled().then((isEnabled) => {
-    if (!isEnabled) autoLaunch.enable()
-})
+// autoLaunch.isEnabled().then((isEnabled) => {
+//     if (!isEnabled) autoLaunch.enable()
+// })
